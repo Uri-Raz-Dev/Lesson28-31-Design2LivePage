@@ -1,0 +1,50 @@
+.main-layout {
+ grid-template-columns:
+  minmax(20px, 1fr) minmax(auto, 954px) minmax(20px, 1fr);
+}
+
+.main-layout>*:not(.full) {
+ grid-column: 2;
+}
+
+.main-layout>*.full {
+ grid-column: 1 / -1;
+}
+
+.cards-layout {
+ display: grid;
+}
+
+.card {
+ display: grid;
+ grid-template-areas:
+  "img h2"
+  "img p1"
+  "img p2"
+  "img button"
+ ;
+}
+
+.card img {
+ grid-area: img;
+}
+
+.card .card-title {
+ grid-area: h2;
+}
+
+.card .card-text {
+ grid-area: p1;
+}
+
+.card .card-text2 {
+ grid-area: p2;
+}
+
+.card .card-button {
+ grid-area: button;
+}
+
+.card-button {
+ max-width: max-content;
+}
