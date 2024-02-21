@@ -9,7 +9,7 @@
 
 .main-header .logo {
  color: var(--primary--2);
- margin-inline-start: 450px;
+ margin-inline-start: 650px;
  font-size: 2.5em;
  font-family: 'eurofurence',
   sans-serif;
@@ -22,10 +22,20 @@
 }
 
 .main-header .main-nav-list {
- margin-inline-end: 450px;
+ margin-inline-end: 650px;
  gap: 79px;
 }
 
 .main-header .logo .logo-dot {
- color: green;
+ color: #58C93A;
+}
+
+.main-nav-list a {
+ position: relative;
+ /* Ensure anchors are positioned relatively */
+}
+
+.main-nav-list a:hover {
+ transition: opacity 0.3s ease;
+ color: #58C93A;
 }

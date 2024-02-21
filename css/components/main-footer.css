@@ -2,6 +2,7 @@
  place-items: center;
  row-gap: 38px;
  height: 315px;
+ background-color: rgba(248, 248, 248, 1);
 }
 
 .main-footer .footer-rights {
@@ -25,7 +26,7 @@
 }
 
 .main-footer .logo .logo-dot {
- color: green;
+ color: #58C93A;
 }
 
 .fa {

@@ -1,75 +1,76 @@
 .card:not(:last-of-type) {
- margin-block-end: 80px;
+  margin-block-end: 80px;
 }
 
 .main-content {
- padding-top: 80px;
+  padding-top: 80px;
 
- border: 1px solid rgba(225, 224, 224, 1);
- width: 980px;
- height: 1250px;
+  border: 1px solid rgba(225, 224, 224, 1);
+  width: 980px;
+  height: 1250px;
 }
 
 .card h2 {
- margin: 0;
- font-size: 1.75em;
- text-transform: uppercase;
- color: #4F4E4E;
- width: 400px;
+  margin: 0;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  color: #4F4E4E;
+  width: 400px;
 }
 
 .card>p {
- width: 445px;
- height: 114px;
- font-family: 'Lato', serif;
- font-weight: 400;
- font-style: normal;
+  width: 445px;
+  height: 114px;
+  font-family: 'Lato', serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .card>.card-button {
- position: relative;
- border: 2px solid rgba(194, 194, 194, 1);
- border-radius: 30px;
- background-color: rgba(255, 255, 255, 1);
- width: 189px;
- height: 45px;
- transition: width 0.3s ease, margin-right 0.3s ease, border-color 0.3s ease,
-  color 0.3s ease;
+  position: relative;
+  border: 2px solid rgba(194, 194, 194, 1);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 1);
+  width: 189px;
+  height: 45px;
+  transition: width 0.3s ease, margin-right 0.3s ease, border-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .card>button::after {
- content: '\2192';
- position: absolute;
- top: 45%;
- right: 30px;
- transform: translateY(-50%);
- opacity: 0;
- transition: opacity 0.3s ease;
+  content: '\2192';
+  position: absolute;
+  top: 45%;
+  right: 30px;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-weight: bolder;
 }
 
 .card>button:hover::after {
- opacity: 1;
+  opacity: 1;
 }
 
 .card .card-button:hover {
- border-color: green;
- color: green;
- width: 210px;
+  border-color: green;
+  color: green;
+  width: 210px;
 }
 
 .card>button span {
- color: #C2C1C1;
+  color: #C2C1C1;
 
 }
 
 .card>button:hover span {
- color: green;
+  color: green;
 }
 
 .page-nav {
- border: 1px solid rgba(225, 224, 224, 1);
- border-top: none;
- height: 45px;
+  border: 1px solid rgba(225, 224, 224, 1);
+  border-top: none;
+  height: 45px;
 }
 
 /* 
