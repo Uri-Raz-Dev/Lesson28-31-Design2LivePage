@@ -1,0 +1,17 @@
+.page-nav {
+ border: 1px solid rgba(225, 224, 224, 1);
+ border-top: none;
+ height: 45px;
+}
+
+.page-nav .next-page {
+ margin-inline-end: 30px;
+ text-transform: uppercase;
+ color: #818181;
+}
+
+.page-nav .previous-page {
+ margin-inline-start: 30px;
+ text-transform: uppercase;
+ color: #818181;
+}

@@ -1,3 +1,31 @@
 .main-header {
- height: 132px;
+ height: 130px;
+ background-color: var(--primary-1);
+}
+
+.main-header .main-nav-list a {
+ font-size: 1em;
+}
+
+.main-header .logo {
+ color: var(--primary--2);
+ margin-inline-start: 450px;
+ font-size: 2.5em;
+ font-family: 'eurofurence',
+  sans-serif;
+ font-weight: 300;
+ font-style: normal;
+ width: 85px;
+ height: 33px;
+ margin-block-end: 0.5em;
+ letter-spacing: 0;
+}
+
+.main-header .main-nav-list {
+ margin-inline-end: 450px;
+ gap: 79px;
+}
+
+.logo .logo-dot {
+ color: green;
 }

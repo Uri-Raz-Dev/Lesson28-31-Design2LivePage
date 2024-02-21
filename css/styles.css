@@ -9,6 +9,6 @@
 
 /* components */
 @import url(components/main-header.css);
-/* @import url(components/card.css); */
-/* @import url(components/newsletter.css); */
+@import url(components/card.css);
+@import url(components/page-nav.css);
 /* @import url(components/main-footer.css);  */
