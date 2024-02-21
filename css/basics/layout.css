@@ -39,5 +39,5 @@
 
 .card .card-button {
   grid-area: button;
-  max-width: max-content;
+  /* max-width: max-content; */
 }

@@ -37,6 +37,10 @@
  justify-content: end;
 }
 
+.grid.justify-center {
+ justify-content: center;
+}
+
 .grid.align-center {
  align-content: center;
 }
