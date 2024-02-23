@@ -34,7 +34,7 @@
 
   .main-nav .main-nav-list a:hover {
     border-block-end: 7px solid #58C93A;
-    transition: border-block-end 0.3s ease, color 0.3s ease;
+    transition: border-block-end 0.6s ease, color 0.6s ease;
   }
 
   .toggle-menu-btn {
