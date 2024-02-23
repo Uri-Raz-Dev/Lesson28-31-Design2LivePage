@@ -42,10 +42,3 @@
   grid-area: button;
   /* max-width: max-content; */
 }
-
-.toggle-menu-btn {
-  display: none;
-  background-color: #343433;
-  color: rgb(5, 195, 5);
-  border: 2px solid rgba(173, 86, 5, 0.886);
-}
