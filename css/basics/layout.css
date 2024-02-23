@@ -42,3 +42,7 @@
   grid-area: button;
   /* max-width: max-content; */
 }
+
+.toggle-menu-btn {
+  display: none;
+}

@@ -1,5 +1,6 @@
 .main-header {
- height: 8.125rem;
+ height: 8.125em;
+ width: 100%;
  background-color: var(--primary-1);
 }
 

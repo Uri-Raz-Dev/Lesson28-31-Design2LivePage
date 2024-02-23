@@ -11,9 +11,12 @@
 </head>
 
 <body class="main-layout grid">
+
+ <div class="main-screen" onclick="toggleMenu()"></div>
+
  <header class="main-header  flex full space-between align-center">
   <div class="logo">Blogin<span class="logo-dot">.</span></div>
-  <nav class="main-nav ">
+  <nav class="main-nav">
    <ul class="main-nav-list clean-list flex flex-row">
     <li><a href="#">Journal</a></li>
     <li><a href="#">About</a></li>
@@ -21,6 +24,7 @@
     <li><a href="#">Contact</a></li>
    </ul>
   </nav>
+  <button class="toggle-menu-btn" type="button" onclick="toggleMenu()">☰</button>
  </header>
 
 
@@ -91,7 +95,11 @@
   </ul>
  </footer>
 
-
+ <script>
+  function toggleMenu() {
+   document.body.classList.toggle('menu-open');
+  }
+ </script>
 
 </body>
 
