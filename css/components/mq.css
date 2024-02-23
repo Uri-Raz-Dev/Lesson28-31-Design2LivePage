@@ -29,10 +29,12 @@
     display: flex;
     justify-content: center;
     padding: 8px 10px;
+    border-block-end: 0;
   }
 
   .main-nav .main-nav-list a:hover {
-    border-block-end: 6px solid #58C93A;
+    border-block-end: 7px solid #58C93A;
+    transition: border-block-end 0.3s ease, color 0.3s ease;
   }
 
   .toggle-menu-btn {
@@ -90,6 +92,10 @@
   .card:last-of-type {
     margin-block-end: 3.75rem;
   }
+
+  .main-nav-list a::after {
+    bottom: -44px;
+  }
 }
 
 @media (max-width: 850px) {
@@ -145,6 +151,10 @@
 
   small {
     text-align: center;
+  }
+
+  .main-nav-list a::after {
+    display: none;
   }
 }
 

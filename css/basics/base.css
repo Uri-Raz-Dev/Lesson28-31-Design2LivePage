@@ -29,3 +29,10 @@ a {
  color: var(--primary--2);
  text-decoration: none;
 }
+
+a,
+button,
+.previous-page,
+.next-page {
+ cursor: pointer;
+}
