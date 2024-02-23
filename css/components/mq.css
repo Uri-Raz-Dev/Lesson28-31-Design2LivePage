@@ -1,4 +1,4 @@
-@media (max-width: 1115px) {
+@media (max-width: 69.6875rem) {
   .main-layout {
     grid-template-columns:
       minmax(20px, 1fr) minmax(auto, 1075px) minmax(20px, 1fr);
@@ -6,21 +6,21 @@
 
   .main-header {
 
-    height: 105px;
+    height: 6.5625rem;
     width: auto;
   }
 
   .main-header .logo {
-    margin-inline-start: 100px;
+    margin-inline-start: 6.25rem;
   }
 
   .main-header .main-nav-list {
-    margin-inline-end: 50px;
+    margin-inline-end: 3.125rem;
   }
 
 
   .main-content {
-    max-width: 980px;
+    max-width: 61.25rem;
     width: auto;
     height: auto;
   }
@@ -31,7 +31,7 @@
   }
 
   .main-content img {
-    max-width: 468px;
+    max-width: 29.25rem;
     width: 45vw;
   }
 
@@ -42,11 +42,11 @@
   }
 
   .card {
-    column-gap: 15px;
+    column-gap: .9375rem;
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 53.125rem) {
   .main-layout {
     grid-template-columns:
       minmax(20px, 1fr) minmax(auto, 810px) minmax(20px, 1fr);
@@ -54,16 +54,16 @@
 
   .main-header {
 
-    height: 85px;
+    height: 5.3125rem;
     width: 100vw;
   }
 
   .main-header .logo {
-    margin-inline-start: 5px;
+    margin-inline-start: .3125rem;
   }
 
   .main-header .main-nav-list {
-    margin-inline-end: 45px;
+    margin-inline-end: 2.8125rem;
   }
 
 
@@ -78,18 +78,18 @@
   }
 
   .card p {
-    width: 400px;
-    margin-block-end: 30px;
+    width: 25rem;
+    margin-block-end: 1.875rem;
   }
 
   .card img {
-    min-width: 364px;
+    min-width: 22.75rem;
   }
 
   .card h2 {
-    margin-block-start: 50px;
-    margin-block-end: 20px;
-    width: 400px;
+    margin-block-start: 3.125rem;
+    margin-block-end: 1.25rem;
+    width: 25rem;
   }
 
   .card button {
@@ -97,22 +97,22 @@
     right: 30%;
     top: 30%;
     transform: translate(-50% -50%);
-    /* margin-inline-end: 300px; */
-    /* margin-block-start: 100px; */
-    /* margin-block-end: 20px; */
+    /* margin-inline-end: 18.75rem; */
+    /* margin-block-start: 6.25rem; */
+    /* margin-block-end: 1.25rem; */
   }
 
   .card:last-of-type button {
-    margin-block-end: 60px;
+    margin-block-end: 3.75rem;
   }
 }
 
 
 
-/* @media (min-width: 1100px) {
+/* @media (min-width: 68.75rem) {
  .main-layout {
   grid-template-columns:
-   minmax(20px, 1fr) minmax(auto, 1060px) minmax(20px, 1fr);
+   minmax(1.25rem, 1fr) minmax(auto, 66.25rem) minmax(1.25rem, 1fr);
   background-color: greenyellow;
  }
 } */
