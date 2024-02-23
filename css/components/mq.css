@@ -1,4 +1,47 @@
-@media (max-width: 69.6875rem) {
+@media (max-width: 850px) {
+  .main-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100dvh;
+    background-color: rgb(41, 41, 41, 90%);
+    border-inline-start: 1px solid #58C93A;
+    min-width: 200px;
+
+    transform: translateX(100%);
+
+    transition: transform 0.6s, box-shadow 0.6s, ;
+  }
+
+  body.menu-open .main-nav {
+    z-index: 1;
+    box-shadow: -6px 0px 20px rgb(0 0 0 / 25%);
+    transform: translateX(0);
+  }
+
+  .main-nav .main-nav-list {
+    flex-direction: column;
+  }
+
+
+
+  .main-nav .main-nav-list a {
+    display: flex;
+    justify-content: center;
+    padding: 8px 10px;
+  }
+
+  .main-nav .main-nav-list a:hover {
+    border-block-end: 6px solid #58C93A;
+  }
+
+  .toggle-menu-btn {
+    display: block;
+    margin-inline-end: 2rem;
+  }
+}
+
+@media (max-width: 1115px) {
   .main-layout {
     grid-template-columns:
       minmax(20px, 1fr) minmax(auto, 1075px) minmax(20px, 1fr);
@@ -6,8 +49,7 @@
 
   .main-header {
 
-    height: 6.5625rem;
-    width: auto;
+    height: 6.5625em;
   }
 
   .main-header .logo {
@@ -46,19 +88,19 @@
   }
 }
 
-@media (max-width: 53.125rem) {
+@media (max-width: 850px) {
   .main-layout {
     grid-template-columns:
       minmax(20px, 1fr) minmax(auto, 810px) minmax(20px, 1fr);
   }
 
-  .main-header {
-
-    height: 5.3125rem;
-    width: 100vw;
+  .main-header .logo {
+    margin-inline-start: 2.25rem;
   }
 
-
+  .main-header .main-nav-list {
+    gap: 25px;
+  }
 
   .card {
     position: relative;
@@ -96,9 +138,11 @@
   .card:last-of-type button {
     margin-block-end: 3.75rem;
   }
+
+  small {
+    text-align: center;
+  }
 }
-
-
 
 /* @media (min-width: 68.75rem) {
  .main-layout {
