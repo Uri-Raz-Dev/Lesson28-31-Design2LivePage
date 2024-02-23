@@ -1,17 +1,17 @@
 .page-nav {
- border: 1px solid rgba(225, 224, 224, 1);
+ border: .0625rem solid rgba(225, 224, 224, 1);
  border-top: none;
- height: 45px;
+ height: 2.8125rem;
 }
 
 .page-nav .next-page {
- margin-inline-end: 30px;
+ margin-inline-end: 1.875rem;
  text-transform: uppercase;
  color: #818181;
 }
 
 .page-nav .previous-page {
- margin-inline-start: 30px;
+ margin-inline-start: 1.875rem;
  text-transform: uppercase;
  color: #818181;
 }

@@ -1,13 +1,13 @@
 .card:not(:last-of-type) {
-  margin-block-end: 80px;
+  margin-block-end: 5rem;
 }
 
 .main-content {
-  padding-top: 80px;
+  padding-top: 5rem;
 
-  border: 1px solid rgba(225, 224, 224, 1);
-  width: 980px;
-  height: 1250px;
+  border: .0625rem solid rgba(225, 224, 224, 1);
+  width: 61.25rem;
+  height: 78.125rem;
 }
 
 .card h2 {
@@ -15,12 +15,12 @@
   font-size: 1.75em;
   text-transform: uppercase;
   color: #4F4E4E;
-  width: 400px;
+  width: 25rem;
 }
 
 .card>p {
-  width: 445px;
-  height: 114px;
+  width: 27.8125rem;
+  height: 7.125rem;
   font-family: 'Lato', serif;
   font-weight: 400;
   font-style: normal;
@@ -30,11 +30,11 @@
   position: relative;
   align-self: end;
   justify-self: start;
-  border: 2px solid rgba(194, 194, 194, 1);
-  border-radius: 30px;
+  border: .125rem solid rgba(194, 194, 194, 1);
+  border-radius: 1.875rem;
   background-color: rgba(255, 255, 255, 1);
-  width: 189px;
-  height: 45px;
+  width: 11.8125rem;
+  height: 2.8125rem;
   transition: width 0.3s ease, margin-right 0.3s ease, border-color 0.3s ease,
     color 0.3s ease;
 }
@@ -43,7 +43,7 @@
   content: '\2192';
   position: absolute;
   top: 45%;
-  right: 30px;
+  right: 1.875rem;
   transform: translateY(-50%);
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -57,7 +57,7 @@
 .card .card-button:hover {
   border-color: green;
   color: green;
-  width: 210px;
+  width: 13.125rem;
 }
 
 .card>button span {
@@ -70,15 +70,15 @@
 }
 
 .page-nav {
-  border: 1px solid rgba(225, 224, 224, 1);
+  border: .0625rem solid rgba(225, 224, 224, 1);
   border-top: none;
-  height: 45px;
+  height: 2.8125rem;
 }
 
 /* 
 .page-nav .next-page{
- margin-inline-start: 29.5px;
+ margin-inline-start: 1.8438rem;
 }
 .page-nav .previous-page{
- margin-inline-start: 29.5px;
+ margin-inline-start: 1.8438rem;
 } */
