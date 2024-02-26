@@ -18,14 +18,22 @@
   <div class="logo">Blogin<span class="logo-dot">.</span></div>
   <nav class="main-nav">
    <ul class="main-nav-list clean-list flex flex-row">
-
     <li><a href="#">Journal</a></li>
+
     <li><a href="#">About</a></li>
-    <li><a href="#">Work</a></li>
+
+    <li><a href="#" class="third">Work</a></li>
+
     <li><a href="#">Contact</a></li>
    </ul>
   </nav>
-  <button class="toggle-menu-btn" type="button" onclick="toggleMenu()">☰</button>
+  <input onclick="toggleMenu()" type="checkbox" id="menyAvPaa">
+  <label id="burger" for="menyAvPaa">
+   <div></div>
+   <div></div>
+   <div></div>
+  </label>
+  <!-- <button class="toggle-menu-btn" type="button" onclick="toggleMenu()">☰</button> -->
  </header>
 
 
@@ -59,7 +67,9 @@
     Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur...
    </p>
+
    <button class="card-button"><span>Continue Reading</span></button>
+
   </div>
 
   <div class="card">
@@ -79,8 +89,8 @@
  </main>
 
  <nav class="page-nav flex space-between align-center">
-  <div class="previous-page"><span>&larr; Previous</span></div>
-  <div class="next-page"><span>Next &rarr;</span></div>
+  <div class="previous-page"><span><span class="prev-arrow">&larr;</span> Previous</span></div>
+  <div class="next-page"><span>Next <span class="next-arrow">&rarr;</span></span></div>
  </nav>
 
 
@@ -98,8 +108,17 @@
 
  <script>
   function toggleMenu() {
-   document.body.classList.toggle('menu-open');
+   const body = document.body;
+   const menyAvPaaCheckbox = document.getElementById('menyAvPaa');
+
+   body.classList.toggle('menu-open');
+
+   if (!body.classList.contains('menu-open')) {
+    menyAvPaaCheckbox.checked = false;
+   }
   }
+
+
  </script>
 
 </body>

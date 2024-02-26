@@ -42,7 +42,7 @@
 .card>button::after {
   content: '\2192';
   position: absolute;
-  top: 45%;
+  top: 49%;
   right: 1.875rem;
   transform: translateY(-50%);
   opacity: 0;
