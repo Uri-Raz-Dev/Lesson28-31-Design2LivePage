@@ -10,6 +10,7 @@
 /* components */
 @import url(components/main-header.css);
 @import url(components/card.css);
+@import url(components/promo-modal.css);
 @import url(components/page-nav.css);
 @import url(components/main-footer.css);
 @import url(components/screen.css);

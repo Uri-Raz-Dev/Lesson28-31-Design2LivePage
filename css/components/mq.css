@@ -112,6 +112,22 @@
     transition: z-index 1s;
   }
 
+  .promo-modal {
+    position: fixed;
+    height: 100%;
+    width: fit-content;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  form .close-modal {
+    width: fit-content;
+  }
+
 
 }
 

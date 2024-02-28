@@ -40,6 +40,22 @@
 
 
  <main class="main-content">
+  <dialog class="promo-modal">
+   <form method="dialog">
+    <button class="close-modal">x</button>
+    <h2 class="promo-text">Join us to get access to the latest stories!</h2>
+    <p>Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco
+     laboris nisi ut aliquip ex ea commo doconsequat,
+     sunt in culpa qui officia
+     deserunt mollit anim id est laborum.
+    </p>
+    <div class="input-container">
+     <input type="email" placeholder="Enter your email...">
+     <button type="submit" class="submit-btn">Submit</button>
+    </div>
+   </form>
+  </dialog>
 
   <div class="card">
    <img src="imgs/img1.jpg" alt="" class="card-image">
@@ -52,7 +68,7 @@
     Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur...
    </p>
-   <button class="card-button"><span>Continue Reading</span></button>
+   <button onclick="onOpenPromo()" class="card-button"><span>Continue Reading</span></button>
   </div>
 
   <div class="card">
@@ -68,7 +84,7 @@
     cillum dolore eu fugiat nulla pariatur...
    </p>
 
-   <button class="card-button"><span>Continue Reading</span></button>
+   <button onclick="onOpenPromo()" class="card-button"><span>Continue Reading</span></button>
 
   </div>
 
@@ -76,7 +92,8 @@
    <img src="imgs/img3.jpg" alt="" class="card-image">
    <img src="" alt="" class="card-image">
    <h2 class="card-title">Duis aute irure dolor in henderit in voluptate.</h2>
-   <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+   <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commo
     doconsequat, sunt in
     culpa qui officia deserunt mollit anim id est laborum.
     <br>
@@ -84,7 +101,7 @@
     Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur...
    </p>
-   <button class="card-button"><span>Continue Reading</span></button>
+   <button onclick="onOpenPromo()" class="card-button"><span>Continue Reading</span></button>
   </div>
  </main>
 
@@ -118,6 +135,11 @@
    }
   }
 
+
+  function onOpenPromo() {
+   const promoModal = document.querySelector('.promo-modal')
+   promoModal.showModal()
+  }
 
  </script>
 

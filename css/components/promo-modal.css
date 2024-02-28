@@ -1,0 +1,31 @@
+form {
+ position: relative;
+ height: 200px;
+ width: max-content;
+}
+
+.close-modal {
+ border-radius: 50%;
+ background-color: gray;
+}
+
+
+form>.submit-btn {
+ right: 0;
+ bottom: 0;
+}
+
+form>h2 {
+ font-size: 20px;
+ letter-spacing: 2px;
+ width: auto;
+}
+
+form>p {
+ white-space: pre-line;
+}
+
+.input-container {
+ display: flex;
+ justify-content: space-between;
+}

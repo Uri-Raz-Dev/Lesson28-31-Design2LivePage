@@ -39,7 +39,7 @@
     color 0.3s ease;
 }
 
-.card>button::after {
+.card>.card-button::after {
   content: '\2192';
   position: absolute;
   top: 49%;
@@ -50,7 +50,7 @@
   font-weight: bolder;
 }
 
-.card>button:hover::after {
+.card>.card-button:hover::after {
   opacity: 1;
 }
 
@@ -60,12 +60,12 @@
   width: 13.125rem;
 }
 
-.card>button span {
+.card>.card-button span {
   color: #C2C1C1;
 
 }
 
-.card>button:hover span {
+.card>.card-button:hover span {
   color: green;
 }
 
