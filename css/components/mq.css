@@ -57,9 +57,9 @@
     position: absolute;
     cursor: pointer;
     width: 2rem;
-    height: 2rem;
+    height: 1rem;
     right: 1rem;
-    top: 2rem;
+    top: 1rem;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -128,6 +128,13 @@
     width: fit-content;
   }
 
+  form>p {
+    margin-block-start: 50px;
+  }
+
+  .input-container {
+    margin: 0;
+  }
 
 }
 
@@ -183,6 +190,10 @@
 
   .main-nav-list a::after {
     bottom: -44px;
+  }
+
+  .input-container {
+    margin-top: 50px;
   }
 }
 
